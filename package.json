@@ -1,0 +1,15 @@
+{
+  "name": "caradistic",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yassine AZZOUT <yassine.azzout@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "elasticsearch": "^14.2.2",
+    "node-car-api": "git+ssh://git@github.com/92bondstreet/node-car-api.git"
+  }
+}
