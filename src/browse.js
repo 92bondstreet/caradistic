@@ -13,8 +13,8 @@ module.exports = async function browse (configuration = {}) {
     brands = await getBrands();
   }
 
-  // perfomance is matter
-  // we can make call in serie
+  // concurrency doesn't matter
+  // we can make calls in serie
   for (let brand of brands) {
     console.log(`fetching models for ${brand}...`);
     const results = await getModels(brand);

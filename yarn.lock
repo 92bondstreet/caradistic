@@ -399,7 +399,7 @@ netmask@^1.0.6:
 
 "node-car-api@git+ssh://git@github.com/92bondstreet/node-car-api.git":
   version "0.0.1"
-  resolved "git+ssh://git@github.com/92bondstreet/node-car-api.git#1491ce42deda0898681e6faea3091b9fd0e3adfe"
+  resolved "git+ssh://git@github.com/92bondstreet/node-car-api.git#77276c8cc0d8b39af33563f654355c7c9182fe31"
   dependencies:
     cheerio "^1.0.0-rc.2"
     p-settle "^2.1.0"

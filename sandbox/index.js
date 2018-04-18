@@ -2,7 +2,7 @@ const caradistic = require('../');
 
 async function save () {
   try {
-    const models = await caradistic.browse({'brands': ['CITROEN']});
+    const models = await caradistic.browse();
 
     await caradistic.bulk(models);
   } catch (e) {
