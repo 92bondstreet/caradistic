@@ -30,3 +30,31 @@ async function save () {
 
 save();
 ```
+
+## Api
+
+### .browse([configuration])
+
+Fetch models for a given list of brands
+
+#### configuration
+
+Type: `Object`
+
+`configuration` is passed to the [node-car-api](https://github.com/92bondstreet/node-car-api#api) module.
+
+##### brands
+
+Type: `array`<br>
+
+Brands whose models are fetched.
+
+### .bulk(models)
+
+Insert list of models -in bulk way - into ES  
+
+#### models
+
+Type: `array`
+
+List of models
