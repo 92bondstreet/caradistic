@@ -9,7 +9,7 @@
   "author": "Yassine AZZOUT <yassine.azzout@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "elasticsearch": "^14.2.2",
+    "elasticsearch": "^15.0.0",
     "node-car-api": "git+ssh://git@github.com/92bondstreet/node-car-api.git"
   }
 }
